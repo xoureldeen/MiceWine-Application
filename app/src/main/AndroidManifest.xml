@@ -25,48 +25,6 @@
         android:isGame="true"
         android:appCategory="game"
         android:supportsRtl="true">
-        <activity
-            android:name=".activities.WelcomeActivity"
-            android:theme="@style/Theme.MiceWine"
-            android:exported="false">
-        </activity>
-        <activity
-            android:name=".activities.ControllerMapper"
-            android:theme="@style/Theme.MiceWine.FullScreen"
-            android:exported="false">
-        </activity>
-        <activity
-            android:name=".activities.GeneralSettings"
-            android:theme="@style/Theme.MiceWine"
-            android:exported="false">
-        </activity>
-        <activity
-            android:name=".activities.VirtualControllerOverlayMapper"
-            android:theme="@style/Theme.MiceWine.FullScreen"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-            android:exported="false">
-        </activity>
-        <activity
-            android:name=".activities.MainActivity"
-            android:exported="true"
-            android:launchMode="singleTop"
-            android:theme="@style/Theme.MiceWine">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".activities.EmulationActivity"
-            android:configChanges="fontScale|orientation|screenSize|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|screenLayout|touchscreen|uiMode|smallestScreenSize|density"
-            android:exported="true"
-            android:launchMode="singleTop"
-            android:resizeableActivity="true"
-            android:taskAffinity=".EmulationActivity"
-            android:theme="@style/Theme.MiceWine.FullScreen"
-            android:windowSoftInputMode="stateHidden">
-        </activity>
     </application>
 
 </manifest>
